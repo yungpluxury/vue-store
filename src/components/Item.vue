@@ -83,7 +83,6 @@ export default {
     modalClose(event) {
       const modal = document.querySelector(".modal");
       if (event.target.classList.contains(modal.classList)) {
-        console.log("click")
         this.click = false
         document.body.style.overflow = "auto"
       }
